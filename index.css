@@ -1,15 +1,21 @@
+@font-face {
+    font-family:monserrat ;
+    src: url(url(fonts/montserrat/Montserrat-Light.ttf));
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     margin: 0px 5%;
-    background-color:#2B2A29;
+    background-color:rgba(74, 74, 74, 1);
+    font-family: monserrat;
 }
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color:#303030;
+    background-color:rgba(74, 74, 74, 1);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .logo {
@@ -24,15 +30,17 @@ nav {
 nav a {
     text-decoration: none;
     color: white;
-    font-size: 16px;
+    font-size: 24px;
+    font-family: monserrat;
 }
 .button {
-    background-color: #303030;
+    background-color: rgba(55, 55, 55, 1);
     color: white;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
+    outline-color: #ffffff;
 }
 .Home {
     height: 900px;
